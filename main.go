@@ -8,10 +8,10 @@ import (
 	"regexp"
 	"time"
 
+	kingpin "github.com/alecthomas/kingpin/v2"
 	"github.com/danielb42/handlekeeper"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	kingpin "gopkg.in/alecthomas/kingpin.v2"
 )
 
 var (
